@@ -19,7 +19,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Branch (release-keys)' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'miodm_corot_eea-user-13-TP1A.220624.014-V816.0.3.0.UMLEUXM-release-keys'
+        default: 'android-13'
       DEVICE_PATH:
         description: 'Specify your Device Path' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
@@ -31,7 +31,7 @@ on:
       BUILD_TARGET:
         description: 'Specify your Build Target' # Pick among boot, recovery and vendor_boot
         required: true
-        default: 'vendor_boot'
+        default: 'recovery'
         type: choice
         options:
         - boot
