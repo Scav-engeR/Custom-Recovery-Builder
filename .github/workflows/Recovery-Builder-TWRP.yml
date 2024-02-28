@@ -17,7 +17,7 @@ on:
         required: true
         default: 'https://github.com/twrpdtgen/android_device_xiaomi_corot'
       DEVICE_TREE_BRANCH:
-        description: 'miodm_corot_eea-user-13-TP1A.220624.014-V816.0.3.0.UMLEUXM-release-keys' # Your Device Tree Branch, make sure it's right.
+        description: 'Device Tree Branch (release-keys)' # Your Device Tree Branch, make sure it's right.
         required: true
         default: 'miodm_corot_eea-user-13-TP1A.220624.014-V816.0.3.0.UMLEUXM-release-keys'
       DEVICE_PATH:
